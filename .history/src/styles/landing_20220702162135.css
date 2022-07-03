@@ -1,0 +1,108 @@
+.carousel__container{
+    background-repeat: no-repeat;
+    background-image: url('../assets/1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    align-items: center;
+}
+
+
+.navbar .nav {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navbar .nav a{
+
+}
+
+.navbar__nav-link{
+    /* padding: 3rem 2rem; */
+    color: #25012C;
+}
+
+.navbar__nav-item{
+    background-color: #DED8D9;
+    color: #25012C;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+
+}
+
+.sign-in{
+    background-color: #290230;
+    color: #DFDDDF!important;
+    
+}
+
+.carousel__welcome-screen{
+    padding: 5rem 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.carousel__welcome-text{
+    font-size: 4rem;
+}
+.carousel__house-lands{
+    font-size: 2rem;
+}
+.carousel__dream-place{
+    font-size: 2rem;
+}
+
+
+.house__preview{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #0D0316;
+    position: relative;
+
+}
+
+.house__preview-inner{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(5, 1fr);
+
+}
+
+.house__preview-overlay{
+    background-color: #0000007e;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    
+}
+
+.house__image-preview{
+    border-radius: 1rem;
+}
+
+.house__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: absolute;
+    color: white;
+}

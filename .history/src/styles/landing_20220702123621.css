@@ -1,0 +1,9 @@
+.carousel__container{
+    background-repeat: no-repeat;
+    background-image: url();
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+}
+

@@ -1,0 +1,35 @@
+.carousel__container{
+    background-repeat: no-repeat;
+    background-image: url('../assets/1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    align-items: center;
+}
+
+
+.navbar .nav {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navbar .nav a{
+    color: white;
+
+}
+
+.navbar__nav-link{
+    padding: 1rem 2rem;
+}
+
+.navbar__nav-item{
+    background-color: #DED8D9;
+    color: #25012C;
+}

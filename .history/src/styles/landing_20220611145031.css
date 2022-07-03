@@ -1,0 +1,9 @@
+.carousel__container{
+    background-image:url("../assets/new-background.png");
+    background-repeat: no-repeat;
+    background-size: ;
+}
+.navbar{
+    display: flex;
+}
+

@@ -1,0 +1,70 @@
+.carousel__container{
+    background-repeat: no-repeat;
+    background-image: url('../assets/1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    align-items: center;
+}
+
+
+.navbar .nav {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navbar .nav a{
+
+}
+
+.navbar__nav-link{
+    /* padding: 3rem 2rem; */
+    color: #25012C;
+}
+
+.navbar__nav-item{
+    background-color: #DED8D9;
+    color: #25012C;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+
+}
+
+.sign-in{
+    background-color: #290230;
+    color: #DFDDDF!important;
+    
+}
+
+.carousel__welcome-screen{
+    padding: 5rem 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.carousel__welcome-text{
+    font-size: 4rem;
+}
+.carousel__house-lands{
+    font-size: 2rem;
+}
+.carousel__dream-place{
+    font-size: 2rem;
+}
+
+
+.house__preview{
+    
+}

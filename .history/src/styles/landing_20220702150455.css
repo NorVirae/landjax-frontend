@@ -1,0 +1,17 @@
+.carousel__container{
+    background-repeat: no-repeat;
+    background-image: url('../assets/1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.navbar{
+    display: flex;
+}
+
+
+.navbar .nav {
+    display: flex;
+    text-decoration: none;
+    lis
+}
