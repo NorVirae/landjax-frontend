@@ -131,7 +131,7 @@ const Home = () => {
             </div>
 
             <p className='explore__explain'>
-              We have the most listing and constant update so you&apos;ill never  miss out
+              We have the most listing and constant update so youill never  miss out
             </p>
           </section>
         </section>
