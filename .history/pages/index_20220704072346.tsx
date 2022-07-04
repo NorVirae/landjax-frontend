@@ -71,7 +71,7 @@ const Home = () => {
             <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
             <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
             <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image alt="preview" [src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
 
           </div>
 

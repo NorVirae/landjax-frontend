@@ -10,7 +10,7 @@ const HouseCard = () => {
     <section className='future__house-card'>
               <button className='future__btn-sale'>Sale</button>
               
-              <Image alt='house image' src={HouseImg} className='future__card-img'/>
+              <Image src={HouseImg} className='future__card-img'/>
               <div className='future__card-body'>
                 <h3 className='future__card-title'>
                   Emene new Extension
@@ -24,7 +24,7 @@ const HouseCard = () => {
                 </p>
 
                 <div className='future__profile-container'>
-                  <Image alt='future' src={HouseImg} height="50rem" width={"50rem"} className="future__profile-img" />
+                  <Image src={HouseImg} height="50rem" width={"50rem"} className="future__profile-img" />
                   Jane Cooper
                 </div>
               </div>
@@ -62,16 +62,16 @@ const Home = () => {
           </div>
 
           <div className='house__preview-inner'>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
-            <Image alt="preview" src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
+            <Image src={HouseImg} height={"250rem"} objectFit={"cover"} width="200rem" className='house__image-preview'/>
 
           </div>
 
@@ -125,8 +125,8 @@ const Home = () => {
 
           <section className='explore__group-card'>
             <div className='explore__image-group'>
-              <Image alt="explore img 1" src={HouseImg} />
-              <Image alt="explore img 2" src={HouseImg} />
+              <Image alt="expo" src={HouseImg} />
+              <Image src={HouseImg} />
 
             </div>
 
